@@ -1,6 +1,10 @@
 var flatiron = require('flatiron'),
     path = require('path'),
-    app = flatiron.app;
+    app = flatiron.app,
+    mongoose = require('mongoose'),
+    redis = require('redis-client'),
+    underscore = require('underscore'),
+    backbone = require('backbone');
 
 app.config.file({ file: path.join(__dirname, 'config', 'config.json') });
 
