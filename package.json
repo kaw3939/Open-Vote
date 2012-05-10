@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "union": "0.1.7",
-    "flatiron": "0.1.17"
+    "flatiron": "0.1.17",
+    "socket.io": "~0.9.6",
+    "mongoose": "~2.6.3"
   },
   "devDependencies": {
     "api-easy": "0.3.2",
